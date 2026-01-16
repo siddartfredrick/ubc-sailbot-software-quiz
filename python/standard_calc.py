@@ -14,7 +14,6 @@ def bound_to_180(angle):
 
     return wrapped 
 
-
 def is_angle_between(first_angle, middle_angle, second_angle):
     """Determines whether an angle is between two other angles.
 
