@@ -9,10 +9,8 @@ def bound_to_180(angle):
 
     """
 
-    
     wrapped = (angle + 180) % 360
     wrapped = wrapped - 180
-
     return wrapped
 
 
@@ -41,7 +39,6 @@ def is_angle_between(first_angle, middle_angle, second_angle):
     
     dist_ac = CCW_dist(c)
     dist_ab = CCW_dist(b)
-
     if dist_ac <= 180:
         return dist_ab <= dist_ac
 
