@@ -9,10 +9,12 @@ def bound_to_180(angle):
 
     """
 
+    
     wrapped = (angle + 180) % 360
     wrapped = wrapped - 180
 
-    return wrapped 
+    return wrapped
+
 
 def is_angle_between(first_angle, middle_angle, second_angle):
     """Determines whether an angle is between two other angles.

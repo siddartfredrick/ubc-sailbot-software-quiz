@@ -33,6 +33,7 @@ def test_bound_general():
 def test_between_basic1():
     assert is_angle_between(0, 1, 2)
 
+
 def test_between_simple_false():
     assert not is_angle_between(0, 3, 2)
 
@@ -47,4 +48,4 @@ def test_between_wraparound_false():
 
 def test_between_reflex_case():
     assert not is_angle_between(45, 90, 270)
-
+    
