@@ -36,7 +36,7 @@ def is_angle_between(first_angle, middle_angle, second_angle):
 
     def CCW_dist(x):
         return (x-a) % 360
-    
+
     dist_ac = CCW_dist(c)
     dist_ab = CCW_dist(b)
     if dist_ac <= 180:
